@@ -1,5 +1,13 @@
 # fenjan
 
-Standalone product system for fenjan.
+Standalone Laravel and Filament system for fenjan.
 
-This repository is intentionally separate from the other Techway products and from the techway.tech website.
+## Admin
+
+- URL: `/admin`
+- Email: `saleh9090@gmail.com`
+- Password: set `ADMIN_PASSWORD` in `.env`, then run `php artisan db:seed`
+
+## Database
+
+This app is configured for MySQL in `.env.example` using database `fenjan`.
